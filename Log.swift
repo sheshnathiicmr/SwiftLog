@@ -157,3 +157,12 @@ open class Log {
 public func logw(_ text: String) {
     Log.logger.write(text)
 }
+
+extension Date {
+    func logFileName() -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        return dateFormatter.string(from: self)
+    }
+    
+}
