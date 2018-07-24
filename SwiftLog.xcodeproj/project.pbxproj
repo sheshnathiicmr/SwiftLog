@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3A744521070CA7009C219A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3A744421070CA7009C219A /* Date.swift */; };
 		5CA8C9911A5AF63F0089A692 /* SwiftLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA8C9851A5AF63F0089A692 /* SwiftLog.framework */; };
 		5CC95BE41A5B0DD400E78EEC /* SwiftLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC95BE11A5B0DD400E78EEC /* SwiftLogTests.swift */; };
 		5CC95BE81A5B0E1400E78EEC /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC95BE61A5B0E1400E78EEC /* Log.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B3A744421070CA7009C219A /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		5CA8C9851A5AF63F0089A692 /* SwiftLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA8C9901A5AF63F0089A692 /* SwiftLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC95BDD1A5B0D8600E78EEC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B3A744621070CAF009C219A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B3A744421070CA7009C219A /* Date.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		5CA8C97B1A5AF63F0089A692 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 		5CA8C9871A5AF63F0089A692 /* SwiftLog */ = {
 			isa = PBXGroup;
 			children = (
+				2B3A744621070CAF009C219A /* Extensions */,
 				5CC95BE61A5B0E1400E78EEC /* Log.swift */,
 				5CC95BE71A5B0E1400E78EEC /* SwiftLog.h */,
 				5CA8C9881A5AF63F0089A692 /* Supporting Files */,
@@ -207,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CC95BE81A5B0E1400E78EEC /* Log.swift in Sources */,
+				2B3A744521070CA7009C219A /* Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -126,7 +126,7 @@ open class Log {
     
     ///gets the log name
     func logName(_ num :Int) -> String {
-        return "\(name)-\(num).log"
+        return "\(Date.logFileName)-\(num).log"
     }
     
     ///get the default log directory
